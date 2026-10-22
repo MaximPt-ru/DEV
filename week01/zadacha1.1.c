@@ -16,10 +16,15 @@ int main(void)
     double d = 12.7;
     long double ld = 3.14L;
 
-    uint8_t ui8t = 8U;
-    uint16_t ui16t = 120U;
-    uint32_t ui32t = 1240U;
-    uint64_t ui64t = 123122U;
+    uint8_t ui8t = -8U;
+    uint16_t ui16t = -120U;
+    uint32_t ui32t = -1240U;
+    uint64_t ui64t = -123122U;
+
+    int8_t i8t = 8U;
+    int16_t i16t = 120U;
+    int32_t i32t = 1240U;
+    int64_t i64t = 123122U;
 
     
     printf("char:    %zu bytes\n", sizeof(c));
@@ -39,6 +44,11 @@ int main(void)
     printf("uint16_t:    %zu bytes\n", sizeof(ui16t));
     printf("uint32_t:    %zu bytes\n", sizeof(ui32t));
     printf("uint64_t:    %zu bytes\n", sizeof(ui64t));
+    
+    printf("int8_t:    %zu bytes\n", sizeof(i8t));
+    printf("int16_t:    %zu bytes\n", sizeof(i16t));
+    printf("int32_t:    %zu bytes\n", sizeof(i32t));
+    printf("int64_t:    %zu bytes\n", sizeof(i64t));
     
     return 0;
 }
