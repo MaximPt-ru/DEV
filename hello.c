@@ -2,6 +2,6 @@
 
 int main(void)
 {
-    printf("Hello World!\n");
+    printf("Maximka privet!\n");
     return 42;
 }
