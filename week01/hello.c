@@ -3,5 +3,5 @@
 int main(void)
 {
     printf("Maximka privet!\n");
-    return 42;
+    return 0;
 }
