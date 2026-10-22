@@ -7,19 +7,19 @@ int main(void)
     short s = 31120;
     int in = 100000;
     long l = 100000;
-    long long ll = 50000000000;
+    long long ll = 50000000000LL;
     
     unsigned char uc = 255; 
     unsigned int ui = 4000000;
 
-    float f = 12.7;
+    float f = 12.7f;
     double d = 12.7;
-    long double ld = 3.14;
+    long double ld = 3.14L;
 
-    uint8_t ui8t = 8;
-    uint16_t ui16t = 120;
-    uint32_t ui32t = 1240;
-    uint64_t ui64t = 123122;
+    uint8_t ui8t = 8U;
+    uint16_t ui16t = 120U;
+    uint32_t ui32t = 1240U;
+    uint64_t ui64t = 123122U;
 
     
     printf("char:    %zu bytes\n", sizeof(c));
@@ -29,7 +29,7 @@ int main(void)
     printf("long long:    %zu bytes\n", sizeof(ll));
 
     printf("unsigned char:    %zu bytes\n", sizeof(uc));
-    printf("nsigned int:    %zu bytes\n", sizeof(ui));
+    printf("unsigned int:    %zu bytes\n", sizeof(ui));
 
     printf("float:    %zu bytes\n", sizeof(f));
     printf("double:    %zu bytes\n", sizeof(d));
